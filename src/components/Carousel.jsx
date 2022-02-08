@@ -8,24 +8,24 @@ function Carousel() {
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active" data-bs-interval="25000">
-    <iframe class="d-block w-100 trailer" src="https://www.youtube.com/embed/nHo_sp0v0vE?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe class="d-block w-100 slides" src="https://www.youtube.com/embed/nHo_sp0v0vE?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       <div class="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
-        <p>Some representative placeholder content for the first slide.</p>
+        <h5>Trailer</h5>
+        <p>Check out this epic trailer for Tuscan</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="images/diamond.png" class="d-block w-100" alt="..." />
+    <img src="images/orc-angry.jpeg" class="d-block w-100 slides" alt="" />
       <div class="carousel-caption d-none d-md-block">
-        <h5>Second slide label</h5>
-        <p>Some representative placeholder content for the second slide.</p>
+        <h5>Adventure RPG</h5>
+        <p>Experience the adventure</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="images/diamond.png" class="d-block w-100" alt="..." />
+      <img src="images/slide3.png" class="d-block w-100 slides" alt="" />
       <div class="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Some representative placeholder content for the third slide.</p>
+        <h5>Available now on Google Play</h5>
+        <p><a href="https://play.google.com/store/apps/details?id=com.wTuscan_15043636" class="slide-download" target="_blank" rel="noopener noreferrer"><i class="fab fa-google-play"></i> GET IT NOW</a></p>
       </div>
     </div>
   </div>

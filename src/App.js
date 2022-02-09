@@ -1,7 +1,10 @@
 import Navbar from "./components/Navbar";
 import Carousel from "./components/Carousel";
+import About from "./components/About";
 import characters from "./characters";
 import Entry from "./components/Entry";
+import Download from "./components/Download";
+import Footer from "./components/Footer";
 
 function createEntry(entry) {
   return (
@@ -21,8 +24,13 @@ function App() {
     <div className="App">
 <Navbar />
 <Carousel />
-<h1 class="text-center">CHARACTERS</h1>
+<About />
+<h1 id="characters" class="text-center">Characters</h1>
+<div class="text-center">
 {characters.map(createEntry)}
+<Download />
+<Footer />
+</div>
     </div>
   );
 }

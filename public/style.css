@@ -31,3 +31,45 @@ body {
     display: inline-block !important;
     margin-top: 1rem !important;
 }
+
+.about {
+    height: 100vh;
+    background-color: rgb(33,37,41);
+    color: #fff;
+}
+
+.about p {
+    margin-top: 10vh;
+    padding: 0 5%;
+}
+
+.about h2 {
+    margin-top: 10vh;
+}
+
+.about ul {
+    padding: 0 5%;
+}
+
+.about li {
+    text-align: left !important;
+}
+
+.download {
+    height: 100vh;
+    background-color: #000;
+    color: #fff;
+}
+
+.download a {
+font-size: 3rem;
+}
+
+.download p {
+    margin-top: 10vh;
+}
+
+.footer {
+    margin: 0 !important;
+    background-color: rgb(33,37,41);
+}
